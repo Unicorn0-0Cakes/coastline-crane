@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coastline Crane Repair - Industrial Parts & Services</title>
+    <meta name="description" content="Crane repair, heavy equipment maintenance, and parts services in Houma, LA. 24/7 emergency response. 30+ years serving Gulf Coast industrial and municipal clients.">
+    <title>Crane & Heavy Equipment Repair | Houma, LA | Coastline Crane - 24/7 Emergency Service</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,10 +13,10 @@
         <div class="nav-container">
             <h1 class="logo">Coastline Crane</h1>
             <ul class="nav-menu">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Parts</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#parts">Parts & Quote</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="tel:(985)851-5878" class="nav-cta">📞 Call Now</a></li>
             </ul>
         </div>
     </nav>
@@ -23,27 +24,31 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h2>Industrial Problems. Real Solutions.</h2>
-            <p>Crane repair and parts services for production, municipal, and industrial operators.</p>
-            <a href="tel:+1-000-000-0000" class="cta-button">Call Now</a>
+            <h2>Crane & Heavy Equipment Repair</h2>
+            <p class="hero-subline">Emergency Response • Gulf Coast • Houma, LA • Open 24/7</p>
+            <p class="hero-description">Serving production, municipal, and industrial operators for over 30 years. When equipment goes down, we get it running.</p>
+            <div class="hero-cta-group">
+                <a href="tel:(985)851-5878" class="cta-button primary">📞 (985) 851-5878</a>
+                <a href="#request" class="cta-button secondary">Request Help Now</a>
+            </div>
         </div>
     </section>
 
     <!-- Proof of Trust -->
-    <section class="proof">
+    <section class="proof" id="about">
         <h3>Why Operators Choose Coastline</h3>
         <div class="proof-items">
             <div class="proof-item">
                 <h4>30+ Years</h4>
-                <p>Trusted by industrial operators</p>
+                <p>Trusted by production, municipal, and industrial operators across the Gulf Coast</p>
             </div>
             <div class="proof-item">
-                <h4>A+ BBB Rating</h4>
-                <p>Certified, professional service</p>
+                <h4>⭐ A+ Rated by BBB</h4>
+                <p>Based on decades of professional service and customer history</p>
             </div>
             <div class="proof-item">
-                <h4>Parish Work</h4>
-                <p>Reliable public sector partner</p>
+                <h4>24/7 Emergency Service</h4>
+                <p>Always available when equipment downtime costs money</p>
             </div>
         </div>
     </section>
@@ -52,32 +57,83 @@
     <section class="differentiation">
         <h3>What Sets Us Apart</h3>
         <ul class="diff-list">
-            <li>When others can't help, we do.</li>
-            <li>If we can't fix it, you don't pay.</li>
-            <li>Retrofitting discontinued parts.</li>
-            <li>Expert with old and new equipment.</li>
+            <li><strong>When others can't help, we do.</strong> Difficult retrofits, obsolete parts, legacy equipment — we solve what others won't.</li>
+            <li><strong>If we can't fix it, you don't pay.</strong> We stand behind our work.</li>
+            <li><strong>Expert with old and new equipment.</strong> Vintage cranes to modern hydraulics — we know both inside and out.</li>
+            <li><strong>Professional, clean, certified.</strong> Uniformed crew. OSHA-aware practices. Licensed mechanics and inspectors.</li>
         </ul>
     </section>
 
-    <!-- Parts & Repairs -->
-    <section class="inquiry">
+    <!-- Request Help / Parts Section -->
+    <section class="inquiry" id="request">
         <h3>Request Parts or Repairs</h3>
-        <p>Not sure what part you need? That's normal. We'll help.</p>
-        <form class="inquiry-form">
-            <input type="text" placeholder="Equipment Type" required>
-            <input type="text" placeholder="Part or Issue Description" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="tel" placeholder="Phone Number" required>
-            <button type="submit" class="submit-btn">Submit Inquiry</button>
+        <p class="inquiry-intro">Equipment down? Not sure what you need? <strong>Call us first.</strong> We'll figure it out together.</p>
+        
+        <form class="inquiry-form" action="https://formspree.io/f/xyzabc" method="POST">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="form-row">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="company" placeholder="Company Name">
+            </div>
+            <input type="text" name="equipment" placeholder="Equipment Type (e.g., Crane, Hoist, Winch)" required>
+            <textarea name="problem" placeholder="What's the issue or part you need?" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Submit Request</button>
         </form>
+        
+        <div class="inquiry-phone">
+            <p><strong>Prefer to call?</strong> We're here 24/7</p>
+            <a href="tel:(985)851-5878" class="phone-link">(985) 851-5878</a>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services" id="services">
+        <h3>Our Services</h3>
+        <div class="service-list">
+            <div class="service-card">
+                <h4>Crane Repair & Maintenance</h4>
+                <p>Preventive maintenance, emergency repair, hydraulic systems, structural inspection, load testing</p>
+            </div>
+            <div class="service-card">
+                <h4>Heavy Equipment Repair</h4>
+                <p>Hoists, winches, chain falls, rigging equipment, electric motors, pumps</p>
+            </div>
+            <div class="service-card">
+                <h4>Parts & Retrofit Solutions</h4>
+                <p>Sourcing discontinued parts, custom fabrication, equipment upgrades, modernization</p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer/Contact -->
     <footer class="footer">
-        <h4>Ready to Get Help?</h4>
-        <p>Call us anytime. We're here when you need us.</p>
-        <p><strong>Phone:</strong> <a href="tel:+1-000-000-0000">+1 (000) 000-0000</a></p>
-        <p>&copy; 2026 Coastline Crane Repair. All rights reserved.</p>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Coastline Crane Repair, Inc.</h4>
+                <p><strong>821 Saadi St, Houma, LA 70363</strong></p>
+                <p><strong>📞 (985) 851-5878</strong></p>
+                <p>⏰ <strong>Open 24 hours</strong> — Emergency response anytime</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#parts">Request Help</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Rated A+ by Better Business Bureau</h4>
+                <p>Professional service, certified mechanics, responsive to emergencies.</p>
+                <a href="https://www.bbb.org/us/la/houma/profile/crane-service/coastline-crane-repairs-0985-80000795" target="_blank" class="bbb-link">View on BBB</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coastline Crane Repair, Inc. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
